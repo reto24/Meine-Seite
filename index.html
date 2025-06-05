@@ -1,32 +1,93 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>wellinger.rocks</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
       color: #333;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #111;
+      color: white;
       text-align: center;
-      padding: 10vh 2rem;
+      padding: 2rem 1rem;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
+    nav a {
+      margin: 0 1rem;
+      color: #aaa;
+      text-decoration: none;
     }
-    p {
-      font-size: 1.2rem;
-      color: #666;
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+    .gallery-placeholder {
+      background: #ddd;
+      text-align: center;
+      padding: 2rem;
+      font-style: italic;
+      color: #555;
     }
   </style>
 </head>
 <body>
 
-  <h1>Willkommen auf wellinger.rocks</h1>
-  <p>Die Homepage der Familie Wellinger befindet sich aktuell im Aufbau.</p>
-  <p>Schau bald wieder vorbei!</p>
+  <header>
+    <h1>wellinger.rocks</h1>
+    <p>Die private Website der Familie Wellinger</p>
+    <nav>
+      <a href="#ueberuns">Über uns</a>
+      <a href="#aktuelles">Aktuelles</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="ueberuns">
+      <h2>Über uns</h2>
+      <p>Hier entsteht eine kurze Vorstellung der Familie Wellinger.</p>
+    </section>
+
+    <section id="aktuelles">
+      <h2>Aktuelles</h2>
+      <p>Hier informieren wir über aktuelle Projekte, Reisen oder Ereignisse.</p>
+    </section>
+
+    <section id="galerie">
+      <h2>Bildergalerie</h2>
+      <div class="gallery-placeholder">
+        Bilder folgen demnächst...
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Für Anfragen oder Grüsse: <a href="mailto:kontakt@wellinger.rocks">kontakt@wellinger.rocks</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Familie Wellinger – wellinger.rocks
+  </footer>
 
 </body>
 </html>
